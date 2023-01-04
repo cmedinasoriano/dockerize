@@ -1,4 +1,4 @@
-FROM golang:1.13.7-alpine3.11 AS binary
+FROM golang:1.19.4-alpine3.17 AS binary
 RUN apk -U add openssl git
 
 ADD . /go/src/github.com/jwilder/dockerize
