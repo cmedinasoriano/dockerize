@@ -1,6 +1,6 @@
 module github.com/jwilder/dockerize
 
-go 1.19
+go 1.20
 
 require (
 	github.com/hpcloud/tail v1.0.1-0.20170207023346-faf842bde7ed
